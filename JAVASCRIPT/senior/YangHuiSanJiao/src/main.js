@@ -7,11 +7,13 @@
  * 1 4 6 4 1
  * 1 5 10 10 5 1
  */
-function cal(n) {	
-	if(0 == n || n < 0)
+function cal(n) 
+{	
+	if(n <= 0)
 	{
 		return 0;
 	}
+	
 	var max_num_of_the_current_line = 1;
 	for(var i = 1; i < n/2; i++)
 	{
