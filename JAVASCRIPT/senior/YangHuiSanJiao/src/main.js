@@ -9,7 +9,7 @@
  */
 function cal(n) 
 {	
-	if(0 == n || n < 0)
+	if(n <= 0)
 	{
 		return 0;
 	}
